@@ -1,6 +1,23 @@
+*{
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #dfd9c3;
+	padding: 30px;
+}
+
+nav {
+	background-color: #ffff01;
+}
+
+article {
+	background-color: #d99896;
+}
+
 .footer {
 	color: gray;
-	background-color: #333;
+	background-color: #b1a1c6;
 	font-size: 12px;
-	padding: 10;
+	/*padding: 10;*/
 }
