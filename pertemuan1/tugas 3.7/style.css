@@ -18,7 +18,7 @@ header {
 }
 
 section {
-	background-color: salmon;
+	background-color: #ffff01;
 	content: "";
 	display: table;
 	clear: both;
