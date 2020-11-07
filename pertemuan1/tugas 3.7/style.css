@@ -2,22 +2,43 @@
 	box-sizing: border-box;
 }
 
+html, body {
+	width: 784px;
+}
+
 header {
+	width: 784px;
+	height: 200px;
 	background-color: #dfd9c3;
 	padding: 30px;
 }
 
+.header h2 {
+	float: left;margin-right: 10px;
+}
+
+section {
+	background-color: salmon;
+	content: "";
+	display: table;
+	clear: both;
+}
+
 nav {
+	width: 200px;
 	background-color: #ffff01;
+	float: left;
+	padding: 20px;
 }
 
 article {
+	width: 584px;
 	background-color: #d99896;
+	float: left;
+	padding: 20px;
 }
 
-.footer {
-	color: gray;
+footer {
 	background-color: #b1a1c6;
-	font-size: 12px;
-	/*padding: 10;*/
+	padding: 10;
 }
