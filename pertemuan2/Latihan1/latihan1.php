@@ -26,4 +26,12 @@ echo "</br>";
 echo "Operator : * ";
 echo "</br>";
 echo "Hasil : " . strval($bil1 * $bil2);
+echo "</br>";
+echo "PEMBAGIAN";
+echo "</br>";
+echo "Operator : / ";
+echo "</br>";
+echo "Hasil : " . strval($bil1 / $bil2);
+
+
  ?>
