@@ -11,7 +11,9 @@ for($i=3; $i<=50; $i++){
 			$bilprima = false;
 		}
 	}
-	
+	if($bilprima){
+		array_push($prima, $i);
+	}
 }
 
  ?>
