@@ -21,4 +21,9 @@ echo "Operator : - ";
 echo "</br>";
 echo "Hasil : " . strval($bil1 - $bil2);
 echo "</br>";
+echo "PERKALIAN";
+echo "</br>";
+echo "Operator : * ";
+echo "</br>";
+echo "Hasil : " . strval($bil1 * $bil2);
  ?>
