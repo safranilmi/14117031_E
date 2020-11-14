@@ -8,4 +8,11 @@ echo "</br>";
 echo "bilangan 2 = " . strval($bil2);
 echo "</br>";
 echo "Berikut merupakan hasil dari setiap operasi";
+echo "</br>";
+echo "PENJUMLAHAN";
+echo "</br>";
+echo "Operator : + ";
+echo "</br>";
+echo "Hasil : " . strval($bil1 + $bil2);
+echo "</br>";
  ?>
