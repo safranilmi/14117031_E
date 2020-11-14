@@ -16,4 +16,9 @@ for($i=3; $i<=50; $i++){
 	}
 }
 
+echo "Bilangan prima antara 1-50 adalah ";
+foreach ($prima as $i) {
+	echo "$i ";
+}
+
  ?>
