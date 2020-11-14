@@ -15,4 +15,10 @@ echo "Operator : + ";
 echo "</br>";
 echo "Hasil : " . strval($bil1 + $bil2);
 echo "</br>";
+echo "PENGURANGAN";
+echo "</br>";
+echo "Operator : - ";
+echo "</br>";
+echo "Hasil : " . strval($bil1 - $bil2);
+echo "</br>";
  ?>
