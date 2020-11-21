@@ -9,5 +9,5 @@ function faktorial($x){
 	}
 	return $faktorial;
 }
-echo "$faktorial";
+echo faktorial(5);
  ?>
