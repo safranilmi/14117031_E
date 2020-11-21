@@ -15,4 +15,6 @@ function hargaBet($nama, $warna="red"){
     echo '<p style="color: '.$warna.'">Bet '.$nama.' dengan harga '.strval($harga).'</p>';
 }
 
+hargaBet("Safran Ilmi", "lightgreen");
+
  ?>
