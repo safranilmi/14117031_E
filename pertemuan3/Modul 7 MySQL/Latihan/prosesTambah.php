@@ -5,5 +5,7 @@
 </head>
 <body>
 
+	<h1>Simpan Buku Tamu MySQLi</h1>
+
 </body>
 </html>
