@@ -25,6 +25,18 @@ if(isset($_SESSION['user'])){
         </div>
         <button type="submit" name="login"><span></span> Submit</button>
     </form>
+
+    <?php 
+
+    if(isset($_SESSION['message'])){
+        ?>
+        <div>
+            <?= $_SESSION['message']; ?>
+        </div>
+        <?php unset($_SESSION['message']);
+    }
+
+     ?>
  
  </body>
  </html>
