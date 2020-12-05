@@ -12,7 +12,7 @@ class dbConnection {
             $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
             
             if(!$this->connection){
-                echo "Cannot connect to database server";
+                echo "Connection database failed";
                 exit;
             }
         }
