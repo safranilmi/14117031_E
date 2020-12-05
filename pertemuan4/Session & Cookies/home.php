@@ -1,7 +1,15 @@
 <?php 
 
+session_start();
+if(!isset($_SESSION['user']) || (trim($_SESSION['user']) == '')){
+    header('location:index.php');
+}
+
 include_once('user.php');
 $user = new user();
+
+$sql = "SELECT * FROM user WHERE id = '". $_SESSION['user']."'";
+$row = $user->details($sql);
 
  ?>
 
