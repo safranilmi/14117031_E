@@ -1,6 +1,10 @@
 <?php 
 
-
+session_start();
+// direct ke home jika punya session
+if(isset($_SESSION['user'])){
+    header('location:home.php');
+}
 
  ?>
 
