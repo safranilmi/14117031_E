@@ -1,0 +1,20 @@
+{
+    "name": {
+        "first": "Safran",
+        "last": "Ilmi"
+    },
+    "gender": "Laki-laki",
+    "saudara": {
+        "first": "O",
+        "second": "P"
+    },
+    "orangtua": {
+        "ayah": "S",
+        "ibu": "R"
+    },
+    "hobby": ["Nonton", "Baca komik"],
+    "alamat": "Raden Saleh, BDL",
+    "social_media": {
+        "instagram": "instagram.com/safranilmi"
+    }
+}
