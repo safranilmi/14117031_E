@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <name>
+    <first>Safran</first>
+    <last>Ilmi</last>
+  </name>
+  <gender>Laki-laki</gender>
+  <saudara>
+    <first>O</first>
+    <second>P</second>
+  </saudara>
+  <orangtua>
+    <ayah>S</ayah>
+    <ibu>R</ibu>
+  </orangtua>
+  <hobby>Nonton</hobby>
+  <hobby>Baca komik</hobby>
+  <alamat>Raden Saleh, BDL</alamat>
+  <social_media>
+    <linkedin>instagram.com/safranilmi</linkedin>
+  </social_media>
+</root>
